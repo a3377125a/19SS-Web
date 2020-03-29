@@ -1,0 +1,91 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f6f6f6;
+}
+
+header{
+    color: black;
+    background-color:#ffffff;
+    text-align: center;
+    height: 50px;
+}
+
+nav{
+    float:left;
+    margin-left: 100px;
+}
+
+a{
+    font-weight:bold;
+    text-decoration:none;
+}
+
+#subtitle{
+    float:right;
+    padding-top: 20px;
+}
+
+#menu{
+    float: right;
+    margin-top: 20px;
+    margin-right: 150px;
+}
+
+h3 a{
+    padding: 10px;
+}
+
+#contents{
+    padding-top: 17px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: white;
+}
+
+#contents h1{
+    color: #a2ddff;
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#contents p{
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+#contents textarea{
+    margin-left: 20px;
+}
+
+a:hover{
+     color: #28455b;
+}
+
+input,textarea{
+    margin-top: 8px;
+    padding: 8px;
+    width: 600px;
+    outline: #a2ddff solid thin;
+}
+
+textarea{
+    height: 150px;
+}
+
+#device input{
+    width: 20px;
+    outline: #ffffff none medium;
+}
+
+#changeButton{
+    width: 80px;
+    text-align: center;
+}
+
+.agree{
+    width: 20px;
+    margin-left: 20px;
+    outline: #ffffff none medium;
+}
