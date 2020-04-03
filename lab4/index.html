@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <title>index</title>
+</head>
+<body>
+<nav class="navbar navbar-inverse" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#"><img alt="Brand" src="images/icons/logo.jpg"  class="img-rounded center-block" width="40px" height="40px"></a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav navbar-left">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Browse</a></li>
+                <li><a href="#">Search</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown ">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                       My account <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <div>
+                                <img alt="Brand" src="images/icons/upload.png" width="20px" height="20px">
+                                <a href="#">Upload</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img alt="Brand" src="images/icons/photo.png" width="20px" height="20px">
+                                <a href="#">My photos</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                            <img alt="Brand" src="images/icons/collection.png" width="20px" height="20px">
+                            <a href="#">My collections</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                            <img alt="Brand" src="images/icons/login.png" width="20px" height="20px">
+                            <a href="#">Login</a>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide">
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img  src="images/scenes/1.jpg" class="img-rounded  center-block" alt="First slide" >
+            <div class="carousel-caption">Scene 1</div>
+        </div>
+        <div class="item">
+            <img src="images/scenes/2.jpg" alt="Second slide">
+            <div class="carousel-caption">Scene 2</div>
+        </div>
+        <div class="item">
+            <img src="images/scenes/3.jpg" alt="Third slide">
+            <div class="carousel-caption">Scene 3</div>
+        </div>
+    </div>
+    <!-- 轮播（Carousel）导航 -->
+    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+        <span  aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;
+        <span  aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 ">
+                <p><a>使用条款</a></p>
+                <p><a>隐私保护</a></p>
+                <p><a>Cookie</a></p>
+            </div>
+            <div class="col-md-4 ">
+                <p><a>关于</a></p>
+                <p><a>联系我们</a></p>
+            </div>
+            <div class="col-md-4 ">
+                <div>
+                    <img src="images/icons/wechat.png" width="45px"   alt=""/>
+                    <img src="images/icons/twitter.png" width="45px"  alt=""/>
+                </div>
+                <div>
+                    <img src="images/icons/QQ.png" width="45px"  alt=""/>
+                    <img src="images/icons/github.png" width="45px"  alt=""/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="copyrightRow">
+        <div class="container">
+            <div class="row">
+                <p class="copyright text-center">Copyright © 19SS Web fundamental. All Rights Reserved. 备案号：沪BILIBILI备18307110244号-1</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

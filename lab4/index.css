@@ -1,0 +1,23 @@
+.navbar-brand{
+    margin-top: -10px;
+}
+.item img{
+    width: 100%;
+}
+footer{
+     background-color: #333333;
+     margin-top: 20px;
+     padding-top: 20px;
+}
+footer p,footer a {
+    color: white;
+}
+footer img{
+    padding: 5px;
+}
+#copyrightRow{
+    margin-top: 30px;
+}
+.dropdown-menu a{
+    color: black;
+}
